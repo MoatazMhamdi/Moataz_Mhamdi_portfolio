@@ -17,21 +17,21 @@ const Qualification = () => {
             <div className="qualification__conatiner container">
                 <div className="qualification__tabs">
                     <div className={
-                        toggleState === 1
+                        toggleState === 2
                             ? "qualification__button qualification__active button--flex"
                             : "qualification__button button--flex"
                     }
-                        onClick={() => toggleTab(1)}
+                        onClick={() => toggleTab(2)}
                     >
                         <i className="uil uil-graduation-cap qualification__icon"></i>
                         Education
                     </div>
 
                     <div className={
-                        toggleState === 2
+                        toggleState === 1
                             ? "qualification__button qualification__active button--flex"
                             : "qualification__button button--flex"}
-                        onClick={() => toggleTab(2)}
+                        onClick={() => toggleTab(1)}
                     >
                         <i className="uil uil-briefcase-alt qualification__icon"></i>
                         Experience
@@ -41,15 +41,15 @@ const Qualification = () => {
                 <div className="qualification__sections">
                     <div
                         className={
-                            toggleState === 1
+                            toggleState === 2
                                 ? "qualification__content qualification__content-active"
                                 : "qualification__content"
                         }
                     >
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Graduated Software Engineer </h3>
-                                <span className="qualification__subtitle"> Esprit School of engineering </span>
+                                <h3 className="qualification__title">Esprit School of engineering </h3>
+                                <span className="qualification__subtitle"> Graduated Software Engineer </span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i>
                                     2024-2025
@@ -72,11 +72,11 @@ const Qualification = () => {
 
                             </div>
                             <div>
-                                <h3 className="qualification__title">Mobile and web devolopment </h3>
-                                <span className="qualification__subtitle"> Esprit School of engineering  </span>
+                                <h3 className="qualification__title">Esprit School of engineering </h3>
+                                <span className="qualification__subtitle"> Mobile and web devolopment  </span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i>
-                                        2023-2024
+                                        2020-2024
                                 </div>
                             </div>
 
@@ -86,7 +86,7 @@ const Qualification = () => {
                     </div>
 
                     <div className={
-                        toggleState === 2
+                        toggleState === 1
                             ? "qualification__content qualification__content-active"
                             : "qualification__content"
                     }
@@ -94,8 +94,8 @@ const Qualification = () => {
                     >
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title"> Full Stack Engineer Intern </h3>
-                                <span className="qualification__subtitle"> Orange Tunisie </span>
+                                <h3 className="qualification__title"> Orange Tunisie</h3>
+                                <span className="qualification__subtitle"> Full Stack Engineer Intern  </span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i>
                                     Janury 2025 - September 2025
@@ -118,8 +118,8 @@ const Qualification = () => {
 
                             </div>
                             <div>
-                                <h3 className="qualification__title">Full Stack Developer</h3>
-                                <span className="qualification__subtitle">Westic </span>
+                                <h3 className="qualification__title">Westic</h3>
+                                <span className="qualification__subtitle">Full Stack Developer</span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i>
                                     June 2024 - November 2024
@@ -130,8 +130,8 @@ const Qualification = () => {
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title"> Full Stack Developer </h3>
-                                <span className="qualification__subtitle"> OSTRIX </span>
+                                <h3 className="qualification__title"> OSTRIX </h3>
+                                <span className="qualification__subtitle"> Full Stack Developer </span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calendar-alt"></i>
                                     January 2024 - May 2024
